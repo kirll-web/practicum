@@ -19,7 +19,7 @@ int main()
     cout << userString.front() << "" << userString.back() << endl;*/
 
     // 3.
-    string firstUserString, secondUserString;
+    /*string firstUserString, secondUserString;
 
     cout << "Введите первую строку: " ;
     getline(cin, firstUserString);
@@ -38,17 +38,17 @@ int main()
         case -1:
             cout << firstUserString << " < " << secondUserString << endl;
             break;
-    }
+    }*/
 
     // 2.
-    /*string userString, stringTemplate;
+    string userString, stringTemplate;
     int userChange, indexTemplate, lengthTemplate;
 
     do {
         userChange = 0;
         cout << "Введите исходную строку: ";
         cin >> userString;
-        cout << "Выберите нужный пункт из меню:\n1. insert\n2. erase\n3. replace\n4. find" << endl;
+        cout << "Выберите нужный пункт из меню:\n1. insert\n2. erase\n3. replace\n4. find\n5. Выход" << endl;
         cin >> userChange;
         switch (userChange)
         {
@@ -84,7 +84,7 @@ int main()
                 break;
         }
     
-    } while (userChange != 5);*/
+    } while (userChange != 5);
 
     return 0;
 }
